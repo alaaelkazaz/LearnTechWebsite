@@ -1,0 +1,128 @@
+/*
+====================================================================================================================================================================
+                                                    Start Global Properties 
+====================================================================================================================================================================
+*/
+body {
+    font-family: roboto;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	background: #172035;
+}
+
+img#logo { 
+    margin-left: 100px;
+    margin-right: 100px;
+    position: absolute;
+    top: 17px;
+    left: 0;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-weight: 2em;
+	font-family: 'roboto';
+	margin-right: 20px;
+    padding: 30px;
+}
+
+a:hover {
+    color: white;
+    background: #09568d;  
+    padding: 30px;
+}
+
+button {
+    width: 50%;
+    height: 50px;
+    background: #172035;
+    color: white;
+    font-size: 2em;
+    border:none;
+}
+
+button:hover {
+    background: #09568d;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 2em;
+}
+
+/*
+====================================================================================================================================================================
+                                                    End Global Properties 
+====================================================================================================================================================================
+*/
+
+
+
+/*-----------------Section courses css ---------------------*/
+
+
+div.one{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:300px;
+    left:100px;
+}
+div.two{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:300px;
+    left:550px;
+}
+div.three{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:300px;
+    left:1000px;
+}
+h6{
+    font-size: 1em;
+}
+
+/*-----------------Section courses css ---------------------*/
+
+
+/*-----------------Section Footer css ---------------------*/
+
+footer {
+    width: 100%;
+    height: 80px;
+    background: #172035;
+    position: absolute;
+    top: 900px;
+    left: 0;
+}
+
+p#footer {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+/*-----------------Section Footer css ---------------------*/

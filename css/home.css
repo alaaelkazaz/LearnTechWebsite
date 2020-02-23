@@ -1,0 +1,256 @@
+html{
+	position:absolute;
+	left:0;
+	padding: 0;
+}
+
+
+body {
+    font-family: roboto;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+
+}
+/*-----------------Header css ---------------------*/
+header{
+	height:80px;
+	width:100%;
+	background-color:#172035 ;
+	margin:0;
+	position:relative;
+
+
+}
+
+img#logo{	
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+	position: absolute;
+	top:10px;
+	left:0px;
+
+}
+nav{
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 130px;
+	position: absolute;
+	left: 270px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-weight: 2em;
+	font-family: 'roboto';
+	margin-right: 20px;
+    padding: 30px;
+}
+a:hover{
+	color: white;
+    background: #09568d;  
+    padding: 25px;
+}
+/*-----------------Header css ---------------------*/
+/*-----------------Section one css ---------------------*/
+section#content {
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+
+}
+
+img#slide {
+    width: 100%;
+    height: 900px;
+}
+
+button {
+    width: 50%;
+    height: 50px;
+    background: #172035;
+    color: white;
+    font-size: 2em;
+    border:none;
+}
+
+button:hover {
+    background: #09568d;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 2em;
+}
+/*-----------------Section one css ---------------------*/
+
+/*-----------------Section two css ---------------------*/
+div.courseone{
+	width: 400px;
+    height: 100px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1244px;
+    left: 50px;
+}
+
+div.coursetwo{
+	width: 400px;
+    height: 100px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1244px;
+    left: 500px;
+}
+div.coursethree{
+	width: 400px;
+    height: 100px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1244px;
+    left: 950px;
+}
+/*-----------------Section two css ---------------------*/
+
+/*-----------------Section three css ---------------------*/
+section#about{
+	width: 100%;
+    height: 509px;
+    background: #252525;
+    position: absolute;
+    top: 1800px;
+    left: 0;
+}
+
+div.about {
+	color: white;
+	text-align: center;
+}
+
+div.students{
+	width:300px;
+	height:220px;
+	background-color: black;
+	text-align: center;
+	color:white;
+	position: absolute;
+	margin-bottom: 10px;
+	top:212px;
+	left:50px;
+}
+div.reviews{
+	width:300px;
+	height:220px;
+	background-color: black;
+	margin-bottom: 10px;
+	text-align: center;
+	color:white;
+	position: absolute;
+	top:212px;
+	left:400px;
+}
+div.courses{
+	width:300px;
+	height:220px;
+	margin-bottom: 10px;
+	background-color: black;
+	text-align: center;
+	color:white;
+	position: absolute;
+	top:212px;
+	left:750px;
+}
+div.content{
+	width:300px;
+	height:220px;
+	background-color: black;
+	text-align: center;
+	margin-bottom: 10px;
+	color:white;
+	position: absolute;
+	top:212px;
+	left:1100px;
+}
+/*-----------------Section three css ---------------------*/
+/*-----------------Section Four css ---------------------*/
+
+
+section#learntech{
+	width: 100%;
+	height: 500px;
+	position:absolute;
+	top: 2320px;
+    left: 0px;
+
+}
+div.technow{
+    width: 400px;
+    height: 300px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 200px;
+    left:50px;
+}
+div.techpod{
+    width: 400px;
+    height: 300px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+div.techtip{
+    width: 400px;
+    height: 300px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 200px;
+    left: 950px;
+}
+.head{
+    position: absolute;
+    top: 30px;
+    left: 620px;
+    font-size: 2em;
+
+
+}
+/*-----------------Section Four css ---------------------*/
+/*-----------------Section Footer css ---------------------*/
+
+footer {
+    width: 100%;
+    height: 80px;
+    background: #172035;
+    position: absolute;
+    top: 3100px;
+    left: 0;
+}
+
+p#footer {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+/*-----------------Section Footer css ---------------------*/
